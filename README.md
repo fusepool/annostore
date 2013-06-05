@@ -26,9 +26,11 @@ The following posts a meaningless annotation (mea
 For retrieving annotations AnnoStore provides a service to dereference the
 context of a resource
 
-GET /Annostore with the IRI of the resource of which the context is requetsed 
+GET /annostore with the IRI of the resource of which the context is requested 
 as value of the iri query parameter.
 
 Example:
     curl  -H "Accept: application/rdf+xml"  \
         http://localhost:8080/annostore?iri=http://example.org/foo .
+
+If the annotations have themselves IRIs you will need to request those annotations one by one.
