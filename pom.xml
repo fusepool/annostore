@@ -8,7 +8,7 @@
   
     <packaging>bundle</packaging>
 
-    <name>AnnoStore</name>
+    <name>Fusepool AnnoStore</name>
     <description>Stores annotations</description>
 
     <properties>
